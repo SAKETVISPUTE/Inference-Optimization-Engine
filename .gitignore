@@ -1,0 +1,30 @@
+# Private keys and secrets
+vlmdg_key
+.env
+*.pem
+*.key
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments and builds
+.venv/
+venv/
+ENV/
+env/
+build/
+dist/
+*.egg-info/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Large profiling traces
+reports/traces/
+
