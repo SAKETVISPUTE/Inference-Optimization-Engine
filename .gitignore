@@ -28,3 +28,7 @@ Thumbs.db
 # Large profiling traces
 reports/traces/
 
+# Walkthrough guide
+docs/walkthrough_guide.md
+
+
