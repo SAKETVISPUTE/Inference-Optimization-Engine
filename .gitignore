@@ -29,11 +29,9 @@ Thumbs.db
 reports/traces/
 
 # Walkthrough guide
+# (kept local)
 docs/walkthrough_guide.md
 
-# Benchmark visualization
-docs/benchmark_visualization.md
-docs/benchmark_plots.png
 
 
 
