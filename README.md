@@ -112,6 +112,8 @@ I set up several experiment scripts to validate correctness and profile performa
 
 ## 📊 Summary of Benchmarking & Profiling
 
+![Benchmark Comparison Plots](docs/benchmark_plots.png)
+
 * **Memory Savings**: INT8 and INT4 quantization significantly reduce peak GPU VRAM requirements during model loading and generation.
 * **Latency Tradeoffs**: Weight-only quantization in pure PyTorch results in dequantization overhead during matrix multiplication. To achieve a true wall-clock speedup, these operations need custom fused kernels (e.g., AWQ/GPTQ) to avoid the PyTorch tensor creation overhead at every layer.
 * **Scheduling Efficiency**: Continuous batching dynamically schedules requests, maintaining steady GPU utilization and preventing resource fragmentation compared to static batching.
